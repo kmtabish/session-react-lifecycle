@@ -1,25 +1,19 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Ex1 from './containers/ex-1'
+import Ex2Clock from './containers/ex-2-clock'
+import Ex3Counter from './containers/ex-3-counter'
+import Ex4Ex4CounterWithComponent from './containers/ex-4-propsWithCounterComponent'
 
+import 'bootstrap/dist/css/bootstrap.css'
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div>
+        {/*<Ex1/>*/}
+        {/*<Ex2Clock />*/}
+          {/*<Ex3Counter /> */}
+        <Ex4Ex4CounterWithComponent />
       </div>
     );
   }

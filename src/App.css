@@ -30,3 +30,11 @@
     transform: rotate(360deg);
   }
 }
+
+.main-body{
+  background-color: #f6c523;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+}
